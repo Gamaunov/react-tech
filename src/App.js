@@ -1,21 +1,19 @@
+import { useState } from "react";
 import "./App.css";
-import Planet from "./components/user/planet/Planet";
 
 function App() {
-  const planets = [
-    { name: "Mars", isGasPlanet: false },
-    { name: "Earth", isGasPlanet: false },
-    { name: "Jupiter", isGasPlanet: true },
-    { name: "Venus", isGasPlanet: false },
-    { name: "Neptune", isGasPlanet: true },
-    { name: "Uranus", isGasPlanet: true },
-  ];
+  const [showText, setShowText] = useState('teal');
+
   return (
     <div className="App">
-      {planets.map(
-        (planet, key) =>
-          planet.isGasPlanet && <Planet key={key} name={planet.name} />
-      )}
+      <button
+        onClick={() => {
+          setShowText(showText === 'teal' ? 'red' :  'teal')
+        }}
+      >
+        show/hide
+      </button>
+       <h1 style={{color: showText}}>Hi my ame id</h1>
     </div>
   );
 }
