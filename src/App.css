@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 1.875rem;
+  background-color: rgb(47, 77, 107);
+  border-radius: 3px;
+  padding: 10px;  
+}
+.links {
+  display: flex;
+  gap: .625rem;
+}
+.link{
+  color: chocolate;
+  text-decoration: none;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.useer__photo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
