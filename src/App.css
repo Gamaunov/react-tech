@@ -68,3 +68,50 @@
     border-radius: 50%;
     object-fit: cover;
 }
+.createPost{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+input,
+textarea {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.creare-post{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  margin-right: 50px;
+  padding: 30px 20px;
+  width: 320px;
+  border-radius: 5px;
+  background-color: white;
+  backdrop-filter: blur(5px);
+  background-color: rgb(47, 77, 107);
+  overflow: hidden;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  margin: 3px 8px 16px 8px;
+  background-color: rgb(239, 239, 239);
+  border: 0 transparent;
+  border-radius: 10px;
+  color: chocolate;
+  font-size: 1rem;
+  z-index: 1;
+}
+.submitFormBtn{
+  cursor: pointer;
+  color: chocolate;
+}
+.submitFormBtn:hover{
+  box-shadow:  0 0 5px #000;
+}

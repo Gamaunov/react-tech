@@ -14,9 +14,15 @@ const Navbar = () => {
         <Link className="link" to="/">
           Home
         </Link>
-        <Link className="link" to="/login">
-          Login
-        </Link>
+        {!user ? (
+          <Link className="link" to="/login">
+            Login
+          </Link>
+        ) : (
+          <Link className="link" to="/createpost">
+            Create post
+          </Link>
+        )}
       </div>
 
       <div className="user">
