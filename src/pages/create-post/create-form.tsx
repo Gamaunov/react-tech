@@ -18,7 +18,7 @@ export const CreateForm = () => {
     title: yup.string().required("You must add a title."),
     description: yup.string().required("You must add a  description."),
   });
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -35,7 +35,7 @@ export const CreateForm = () => {
       username: user?.displayName,
       userId: user?.uid,
     });
-    navigate('/')
+    navigate("/");
   };
   return (
     <form onSubmit={handleSubmit(onCreatePost)}>

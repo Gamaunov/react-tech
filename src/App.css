@@ -44,17 +44,17 @@
   column-gap: 1.875rem;
   background-color: rgb(47, 77, 107);
   border-radius: 3px;
-  padding: 10px;  
+  padding: 10px;
 }
 .links {
   display: flex;
-  gap: .625rem;
+  gap: 0.625rem;
 }
-.link{
+.link {
   color: chocolate;
   text-decoration: none;
 }
-.link:hover{
+.link:hover {
   text-decoration: underline;
 }
 .user {
@@ -62,13 +62,13 @@
   align-items: center;
   gap: 10px;
 }
-.useer__photo{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    object-fit: cover;
+.useer__photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-.createPost{
+.createPost {
   display: flex;
   justify-content: center;
   margin: 30px;
@@ -79,14 +79,14 @@ textarea {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.creare-post{
+.creare-post {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
 }
 
-form{
+form {
   margin-right: 50px;
   padding: 30px 20px;
   width: 320px;
@@ -108,10 +108,10 @@ textarea {
   font-size: 1rem;
   z-index: 1;
 }
-.submitFormBtn{
+.submitFormBtn {
   cursor: pointer;
   color: chocolate;
 }
-.submitFormBtn:hover{
-  box-shadow:  0 0 5px #000;
+.submitFormBtn:hover {
+  box-shadow: 0 0 5px #000;
 }
